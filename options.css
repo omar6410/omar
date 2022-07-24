@@ -1,0 +1,258 @@
+
+
+button#options
+{
+    display:flex;
+     margin-top:15px;
+    background-color:#F1F1E8; 
+    color:#000000;
+    border:none; 
+    justify-content:center;
+    align-items:center;
+}
+
+.arrow
+{
+    margin-left:5px;
+}
+
+.arrow-up
+{
+     display:block;
+    -webkit-transform: rotate(180deg); 
+    -moz-transform: rotate(-180deg); 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
+}
+
+
+.useful-options
+{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:0px;
+}
+
+input[type="checkbox"]
+{
+    position:relative;
+    height:2px;
+    width:40px;
+    -webkit-appearance:none;
+    background-color:#000000;
+    border-radius:20px;
+    box-shadow:inset 5px #bbb8b8;
+    outline:none;
+}
+
+input[type="checkbox"]::before
+{
+   content:"";
+   position:absolute;
+   width:20px;
+   height:20px;
+   background-color:#FF0063;
+   border-radius:50%;
+   top:0;
+   left:0; 
+   box-shadow:0 2px 5px #3CCF4E;
+   transition:0.5s;
+}
+
+input:checked[type="checkbox"]::before
+{
+    left:20px;
+    background-color:#3CCF4E;
+}
+
+.inline 
+{
+    display:flex;
+    align-items:center;
+    width:100%;
+    justify-content:space-between;
+    margin-bottom:1px;
+    border:1px solid;
+    padding:1px;
+}
+
+.inline span
+{
+    font-size:12px;
+    margin-right:200px;
+}
+
+.section-seprate
+{
+    border:1px solid;
+    padding:1px 5px 2px 5px;
+    background-color:#fff;
+    color:#000;
+    font-weight:bold;
+}
+
+.useful-options.display
+{
+    display:none;
+}
+
+body.dark-mode
+{
+    background-color:#1b1919;
+   color:#fff;
+}
+
+.target.dark-mode input
+{
+    background-color:#000;
+    color:#fff;
+}
+
+.tasbeeh.dark-mode
+{
+    background-color:black;
+}
+
+textarea.dark-mode
+{
+    background-color:#000;
+    color:#fff;
+}
+
+nav.dark-mode.nav
+{
+    background-color:black;
+    
+}
+
+nav.dark-mode.nav a
+{
+    color:#fff;
+}
+footer.dark-mode .footer-content
+{
+    background-color:#000;
+}
+
+.target-msg.dark-mode
+{
+    color:#fff;
+}
+
+.contact.dark-mode form input
+{
+    background-color:black;
+    color:#fff;
+}
+.menu.dark-mode.display ul
+{
+    background-color:#000;
+}
+
+input.dark-mode
+{
+    background-color: #fff;
+    color:#000;
+}
+
+.option-title
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    background-color:#000;
+    color:#fff;
+    font-weight:bold;
+    margin-top:5px;
+
+}
+
+.option-title.dark-mode
+{
+    background-color:#F7EC09;
+    color:#F7EC09;
+    font-weight:bold;
+}
+
+button.option-green
+{
+    margin:0 auto;
+    width:100%;
+    border:1px solid #fff;
+    color:#ffffff;
+    background-color:#02b502;
+}
+
+button.option-red
+{
+    margin:0 auto;
+    width:100%;
+    border:1px solid #fff;
+    margin-top:5px;
+    background-color:#9e0707;
+    color:#ffffff;
+}
+
+.last-day-message
+{
+    margin-top:4px;
+    
+}
+.center
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.brand-name
+{
+    font-family:'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.custom-brand-font
+{
+    font-family:'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+/*Blue Theme*/
+button#options.blue-mode
+{
+    margin-top:15px;
+    background-color:white; 
+    color:#231E23;
+    border:none;  
+}
+
+
+body.blue-mode
+{
+    background-color:#FFF8E5;
+   color:#000;
+   font-weight:bold;
+}
+
+.target.blue-mode input
+{
+    background-color:#ffffff;
+    color:#5aa5af;
+}
+
+.tasbeeh.blue-mode
+{
+    background-color:#28FFBF;
+    color:#000;
+}
+
+.tasbeeh.blue-mode input
+{
+    color:#160F30;
+    background-color:#FBFBFB;
+}
+

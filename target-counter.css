@@ -1,0 +1,33 @@
+.target-container
+{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+    padding:3px;
+}
+
+.target-container span
+{
+    color:brown;
+    cursor:pointer;
+}
+
+.target
+{
+    height:140px;
+    width:130px;
+   border:1px solid #b3b7b3;
+}
+
+
+.target input
+{
+    width:100%;
+    height:100%;
+    text-align:center;
+    font-size:29px;
+    border:1px solid #b3b7b3;
+
+}

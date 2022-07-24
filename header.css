@@ -1,0 +1,151 @@
+*
+{
+    box-sizing:border-box;
+}
+
+header
+{
+  z-index:5;
+}
+
+.fixed
+{
+  position: fixed;
+  height:20px
+}
+
+.fixed h1
+{
+  font-size:16px;
+}
+
+.fixed .burger
+{
+  font-size:10px;
+  width:22px;
+  height:26px
+}
+
+header nav 
+{
+    width:98%;
+    margin:0 auto;
+    display:flex;
+    flex-dirextion:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 15px;
+    border:1px solid #c3c3c3;
+    border-top:none;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    background-color:#fff;
+
+}
+
+header nav .burger
+{
+    text-align:center;
+    border:1px solid #eee;
+    padding:5px;
+    font-size:16px;
+    border-radius:5px;
+    height:35px;
+    width:35px;
+    cursor:pointer;
+
+}
+
+.menu
+{
+  z-index:10;
+  position:fixed;
+  display:none;
+  
+
+
+}
+
+.menu ul
+{
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out; /* For Safari 3.1 to 6.0 */
+ list-style:none;
+ font-size:19px;
+ display:flex;
+ flex-direction:column;
+ width:98%;
+ margin:0 auto;
+ align-items:center;
+ justify-content:center;
+ text-align:center;
+ background-color:#fff;
+
+
+
+}
+
+.menu ul li
+{
+  padding:9px;
+  text-align:center;
+  width:100%;
+  background-color:#000000;
+  height:40px;
+  border-bottom:1px solid;
+  display:flex;
+   border-bottom:1px solid #ddd;
+  
+
+}
+
+.menu ul li:hover
+{
+  background-color:#697969;
+}
+
+.menu ul li a
+{
+  width:100%;
+  height:100%;
+
+
+}
+
+.display
+{
+  display:flex;
+  width:100%;
+}
+
+.burger-scroll
+{
+  display:none;
+  text-align:right;
+  margin-right:9px;
+  position:fixed;
+  top:0;
+  left:85%;
+  top:1.5%;
+  z-index:400;
+  cursor:pointer;
+  border:1px solid #d0d0d0;
+  width:25px;
+  text-align:center;
+  border-radius:2px;
+  background-color:#fff;
+  
+}
+.burger
+{
+
+}
+
+.buger-stick
+{
+  width:10px;
+  height:10px;
+  background-color: #fff;
+  margin:5px;
+
+}
