@@ -51,7 +51,7 @@ function reset()
 {
 	var numbers = $("#numbers").val();
 	var num = parseInt(numbers);
-	var confirmReset= confirm("Press 'Ok' if you want to reset your progress");
+	var confirmReset= confirm("هل تريدإعادة تعيين المسبحة");
 
 	 if (confirmReset == true) 
 	 {
@@ -126,7 +126,7 @@ function addOne()
 		if (targetNum == 0) 
 		{
 			navigator.vibrate(1000);
-			alert("Target is completed");
+			alert("لقد أتممت العد");
 		}
 
 	}
